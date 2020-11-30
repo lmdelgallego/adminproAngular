@@ -9,6 +9,7 @@ import { RouterModule } from '@angular/router';
 import { PagesRoutingModule } from './pages.routing';
 import {FormsModule} from '@angular/forms';
 import {ComponentsModule} from 'src/app/components/components.module';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 
@@ -17,7 +18,8 @@ import {ComponentsModule} from 'src/app/components/components.module';
     ProgressComponent,
     Grafica1Component,
     PagesComponent,
-    DashboardComponent
+    DashboardComponent,
+    AccountSettingsComponent
   ],
   imports: [
     CommonModule,
@@ -32,6 +34,7 @@ import {ComponentsModule} from 'src/app/components/components.module';
     Grafica1Component,
     PagesComponent,
     DashboardComponent,
+    AccountSettingsComponent
   ]
 })
 export class PagesModule { }
