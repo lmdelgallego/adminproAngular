@@ -10,17 +10,14 @@ import { SharedModule } from './shared/shared.module';
 import { AuthModule } from './auth/auth.module';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    NopagefoundComponent,
-  ],
+  declarations: [AppComponent, NopagefoundComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
     AuthModule,
     PagesModule,
-    SharedModule
+    SharedModule,
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
