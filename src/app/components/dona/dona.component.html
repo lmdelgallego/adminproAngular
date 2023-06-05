@@ -1,9 +1,10 @@
-<h3>{{title}}</h3>
+<h3>{{ title }}</h3>
 <div style="display: block">
-  <canvas baseChart
-      [colors]="colors"
-      [data]="doughnutChartData"
-      [labels]="doughnutChartLabels"
-      [chartType]="doughnutChartType">
+  <canvas
+    baseChart
+    [data]="dataChart"
+    [labels]="doughnutChartLabels"
+    [type]="doughnutChartType"
+  >
   </canvas>
 </div>
